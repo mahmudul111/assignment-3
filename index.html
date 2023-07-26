@@ -42,7 +42,7 @@
     </script>
 
     <style>
-        .lato-font {
+        .lato-font{
             font-family: 'Lato', sans-serif;
         }
     </style>
@@ -89,7 +89,7 @@
                             </li>
                         </ul>
                         <ul
-                            class="flex lg:gap-6 text-base text-white mx-14 sm:hidden">
+                            class="hidden lg:flex lg:gap-6 text-base text-white mx-14">
                             <li><a>Home</a>
                             </li>
                             <li><a>About
@@ -113,7 +113,7 @@
                 </div>
                 <div class="navbar-end">
                     <div
-                        class="form-control ">
+                        class="hidden lg:flex form-control ">
                         <input
                             type="text"
                             placeholder="Search here"
@@ -125,16 +125,19 @@
         </nav>
 
         <!-- banner section -->
-        <section class="max-w-screen-xl  mx-auto h-[600px] ">
-            <div class="carousel w-full border h-[600px] border-red-600">
-                <div id="slide1" class="carousel-item relative w-full ">
-                    <div class="hero h-[500px]" style="background-image: url('./images/banner1.png');">
+        <section class="max-w-screen-xl  mx-auto h-3/5 ">
+            <div>
+
+            
+            <div class="carousel w-full relative overflow-hidden rounded-lg">
+                <div id="slide1" class="carousel-item relative w-full h-[600px] ">
+                    <div class="hero h-[600px] max-w-screen-xl" style="background-image: url('./images/banner1.png');">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
                           <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
+                            <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                            <p class="mb-5">We supply highly quality organic products.</p>
+                            <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-apple-color text-white border-none text-xl font-extrabold">Shop Now</button>
                           </div>
                         </div>
                       </div>
@@ -143,15 +146,15 @@
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full">
-                    <div class="hero min-h-screen" style="background-image: url(./images/banner2.png);">
+                <div id="slide2" class="carousel-item relative w-full h-[600px]">
+                    <div class="hero h-[600px] min-h-screen" style="background-image: url(./images/banner2.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
-                          <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
-                          </div>
+                            <div class="max-w-md h-[400px]">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products.</p>
+                                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-apple-color text-white border-none text-xl font-extrabold">Shop Now</button>
+                              </div>
                         </div>
                       </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -159,15 +162,15 @@
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative w-full">
-                    <div class="hero min-h-screen" style="background-image: url(./images/banner3.png);">
+                <div id="slide3" class="carousel-item relative w-full h-[600px]">
+                    <div class="hero h-[600px] min-h-screen" style="background-image: url(./images/banner3.png);">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
-                          <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
-                          </div>
+                            <div class="max-w-md h-[400px]">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products.</p>
+                                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-apple-color text-white border-none text-xl font-extrabold">Shop Now</button>
+                              </div>
                         </div>
                       </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -175,15 +178,15 @@
                     <a href="#slide4" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide4" class="carousel-item relative w-full">
-                    <div class="hero min-h-screen" style="background-image: url('./images/banner4.png');">
+                <div id="slide4" class="carousel-item relative w-full h-[600px]">
+                    <div class="hero h-[600px] min-h-screen" style="background-image: url('./images/banner4.png');">
                         <div class="hero-overlay bg-opacity-60"></div>
                         <div class="hero-content text-center text-neutral-content">
-                          <div class="max-w-md">
-                            <h1 class="mb-5 text-5xl font-bold">Hello there</h1>
-                            <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                            <button class="btn btn-primary">Get Started</button>
-                          </div>
+                            <div class="max-w-md h-[400px]">
+                                <h1 class="mb-5 text-5xl font-bold">Exotic tastes at your doorstep</h1>
+                                <p class="mb-5">We supply highly quality organic products.</p>
+                                <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg bg-apple-color text-white border-none text-xl font-extrabold">Shop Now</button>
+                              </div>
                         </div>
                       </div>
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -192,6 +195,32 @@
                   </div>
                 </div>
               </div>
+
+                <!-- badge-banner -->
+                <div class="hidden lg:grid grid-cols-5 items-center max-w-screen-md p-8 bg-white border-white absolute -mt-24 ml-60 rounded-xl">
+                    <div>
+                        <img src="./images/fruit1.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit2.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit3.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit4.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                    <div>
+                        <img src="./images/fruit5.png" alt="">
+                        <p>Mango</p>
+                    </div>
+                   
+                </div>
+            </div>
         </section>
     </header>
     <main>
